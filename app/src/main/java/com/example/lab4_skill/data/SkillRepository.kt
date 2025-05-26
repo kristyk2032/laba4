@@ -1,4 +1,4 @@
-package com.example.lab4_skill
+package com.example.lab4_skill.data
 
 import kotlinx.coroutines.flow.Flow
 

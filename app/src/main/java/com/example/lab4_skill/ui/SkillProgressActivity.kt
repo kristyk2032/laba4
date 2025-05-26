@@ -1,4 +1,4 @@
-package com.example.lab4_skill
+package com.example.lab4_skill.ui
 
 import android.app.AlertDialog
 import android.content.Intent
@@ -9,6 +9,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.lab4_skill.R
+import com.example.lab4_skill.SkillViewModel
+import com.example.lab4_skill.data.Progress
+import com.example.lab4_skill.data.Skill
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class SkillProgressActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.example.lab4_skill
+package com.example.lab4_skill.ui
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -9,15 +9,15 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import android.widget.ImageButton
+import com.example.lab4_skill.R
+import com.example.lab4_skill.data.Progress
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
 
-class SkillProgressListAdapter internal constructor(
-    context: Context,
-    private val onItemClickListener: OnItemClickListener
-) :
-    ListAdapter<Progress, SkillProgressListAdapter.ProgressViewHolder>(ProgressComparator()) {
+class SkillProgressListAdapter internal constructor(context: Context, private val onItemClickListener: OnItemClickListener) : ListAdapter<Progress, SkillProgressListAdapter.ProgressViewHolder>(
+    ProgressComparator()
+) {
 
     interface OnItemClickListener {
         fun onItemClick(progress: Progress)

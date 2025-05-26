@@ -1,10 +1,13 @@
-package com.example.lab4_skill
+package com.example.lab4_skill.ui
 
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
+import com.example.lab4_skill.R
+import com.example.lab4_skill.SkillViewModel
+import com.example.lab4_skill.data.Skill
 
 class AddSkillActivity : AppCompatActivity() {
 

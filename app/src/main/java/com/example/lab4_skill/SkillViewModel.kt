@@ -1,6 +1,9 @@
 package com.example.lab4_skill
 
 import androidx.lifecycle.*
+import com.example.lab4_skill.data.Progress
+import com.example.lab4_skill.data.Skill
+import com.example.lab4_skill.data.SkillRepository
 import kotlinx.coroutines.launch
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject

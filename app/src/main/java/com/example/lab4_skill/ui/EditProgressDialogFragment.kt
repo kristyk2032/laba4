@@ -1,4 +1,4 @@
-package com.example.lab4_skill
+package com.example.lab4_skill.ui
 
 import android.app.Dialog
 import android.os.Bundle
@@ -6,6 +6,9 @@ import android.widget.EditText
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.ViewModelProvider
+import com.example.lab4_skill.R
+import com.example.lab4_skill.SkillViewModel
+import com.example.lab4_skill.data.Progress
 
 class EditProgressDialogFragment : DialogFragment() {
 

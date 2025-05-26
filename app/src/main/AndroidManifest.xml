@@ -16,16 +16,16 @@
         tools:targetApi="31">
 
         <activity
-            android:name=".SkillProgressActivity"
+            android:name=".ui.SkillProgressActivity"
             android:exported="false" />
         <activity
-            android:name=".AddSkillActivity"
+            android:name=".ui.AddSkillActivity"
             android:exported="false" />
         <activity
-            android:name=".AddProgressActivity"
+            android:name=".ui.AddProgressActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

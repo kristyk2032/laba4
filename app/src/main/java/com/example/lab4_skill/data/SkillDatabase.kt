@@ -1,4 +1,4 @@
-package com.example.lab4_skill
+package com.example.lab4_skill.data
 
 import android.content.Context
 import androidx.room.Database
